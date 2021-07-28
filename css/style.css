@@ -1,0 +1,55 @@
+/*================================================
+                GOOGLE FONT POPPINS
+================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-color{
+    background-color: #264653;
+}
+
+.btn-color {
+    background-color: #E76F51    ;
+}
+.rm-btn{
+    border: 1px solid #E76F51;
+    color:#E76F51;
+}
+
+.font-sizing{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 28px;
+}
+
+.grscale{
+    filter: grayscale(100%);
+}
+
+
+
+.header-bike{
+    width: 552px;
+}
+
+@media only screen and (max-width: 991px){
+    .header-bike{
+        width: 321px;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+    
+}
