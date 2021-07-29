@@ -30,70 +30,68 @@
     <header class="header-color">
 
         <nav class="navbar navbar-expand-lg navbar-dark pt-4">
-            <div class="container d-flex justify-content-around">
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item me-5 mb-3">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-color text-light" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header d-flex justify-content-center ">
-                                            <h5 class="modal-title" id="exampleModalLabel">Log-in</h5>
-                                        </div>
-                                        <form class="m-3">
-                                            <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp">
-                                                <div id="emailHelp" class="form-text">We'll never share your email with
-                                                    anyone else.</div>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1">
-                                            </div>
-                                            <div class="mb-3 form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label" for="exampleCheck1">Accept Terms &
-                                                    Conditions</label>
-                                            </div>
-                                            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                                        </form>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Submit</button>
-                                        </div>
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5 mb-3" href="#">Contact</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <button class="btn btn-color text-light" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header d-flex justify-content-center ">
+                                    <h5 class="modal-title" id="exampleModalLabel">Log-in</h5>
+                                </div>
+                                <form class="m-3">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with
+                                            anyone else.</div>
                                     </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Accept Terms &
+                                            Conditions</label>
+                                    </div>
+                                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                                </form>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Submit</button>
                                 </div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+                
+              </div>
             </div>
-        </nav>
+          </nav>
 
 
 
@@ -393,11 +391,11 @@
             <div class="row g-3">
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-5 d-flex justify-content-center">
                     <img src="images/faq.png" alt="" width="331">
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-7">
 
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
